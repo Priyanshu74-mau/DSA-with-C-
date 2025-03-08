@@ -12,7 +12,7 @@
 class Solution {
 public:
     int countNodes(TreeNode* root) {
-        if(root==NULL) return NULL;
+        if(!root) return 0;
         int count=0;
         queue<TreeNode*>q;
         q.push(root);
